@@ -57,6 +57,13 @@ $ yarn run start:dev
 $ yarn run start:prod
 ```
 
+## Building database with seed
+
+```bash
+# http request
+$ http://localhost:3000/api/v1/seed
+```
+
 ## Test
 
 ```bash
