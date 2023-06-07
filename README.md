@@ -29,7 +29,7 @@
 ## Installation
 
 ```bash
-$ yarn install
+yarn install
 ```
 
 ## Nest CLI
@@ -44,6 +44,14 @@ npm i -g @nest/cli
 docker-compose up -d
 ```
 
+## Config dev environment
+
+* Clone field __.env.template__ and rename copy to __.env__
+
+* Fill in the defined environment variables in the __.env__
+
+* Running the application in dev
+
 ## Running the app
 
 ```bash
@@ -56,6 +64,7 @@ $ yarn run start:dev
 # production mode
 $ yarn run start:prod
 ```
+
 
 ## Building database with seed
 
