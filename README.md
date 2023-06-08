@@ -86,6 +86,16 @@ $ yarn run test:e2e
 $ yarn run test:cov
 ```
 
+## Production Build
+
+* Create file __.env.prod__
+* Filling in the environment variables of prod
+* Create new image
+
+```bash
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
+
 ## Used Stack
 
 * MongoDB
